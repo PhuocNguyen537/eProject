@@ -1,0 +1,16 @@
+form{
+    background-color: #ecf0f1;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+h1{
+    color:#0088a9; 
+    text-align: center;
+}
+input{
+    background-color: #dfe6eb;
+    border-style: none;
+    height: 30px;
+    border-radius: 5px;
+    vertical-align: bottom;
+}

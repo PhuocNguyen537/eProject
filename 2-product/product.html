@@ -1,0 +1,40 @@
+<div>
+    <link rel="stylesheet" href="/eProject/2-product/product.css" />
+    <div class="" >
+        <div class="row">
+            <div class="column side">
+                <div class="filter">
+                    <label for="">Search</label>
+                    <input type="text" placeholder="input product" ng-model="test">
+                </div>
+                <div>
+                    <label for="">Sort</label>
+                    <select name="Sortcode" ng-model="Sortcode">
+                        <option value="name"> Name</option>
+                        <option value="price"> Price</option>
+                    </select>
+                </div>
+
+            </div>
+            <div class="column middle">
+                <div class="products">
+                    <div class="product" ng-repeat="item in listProduct | filter:test | orderBy: Sortcode">
+                        <div class="card">
+                            <div class="card__img">
+                                <img src="{{item.picture}}" alt="" />
+                            </div>
+                            <h2 class="card__title">{{item.name}}</h2>
+                            <p class="card__price">{{item.price}}</p>
+                        
+                            <div class="card__action">
+                                <button>Buy now</button>
+                                <button>Add cart</button>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
