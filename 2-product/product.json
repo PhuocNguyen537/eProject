@@ -1,124 +1,207 @@
 [
 {
-    "picture": "2-product/img product/pedestal fans/quatdung1.jpg",
-    "name": "Sp1 sp2",
-    "Category": "",
-    "Type": "",
-    "Color": "",
-    "Brands": "",
+    "picture": "2-product/img product/Ceiling fans/num1-Amped.jpg",
+    "name": "Amped",
+    "category": "Ceiling fans",
+    "color": "",
+    "price": 200
+},
+{
+    "picture": "2-product/img product/Ceiling fans/num2-SpitfireDC.jpg",
+    "name": "Spitfire DC",
+    "category": "Ceiling fans",
+    "color": "",
+    "price": 239
+},
+{
+    "picture": "2-product/img product/Ceiling fans/num3-Edgewood.jpg",
+    "name": "Edgewood",
+    "category": "Ceiling fans",
+    "color": "",
+    "price": 234
+},
+{
+    "picture": "2-product/img product/Ceiling fans/num4-PCDC+Light.jpg",
+    "name": "PCDC Light",
+    "category": "Ceiling fans",
+    "color": "",
+    "price": 400
+},
+{
+    "picture": "2-product/img product/Ceiling fans/num5-SculptAire.jpg",
+    "name": "Sculpt Aire",
+    "category": "Ceiling fans",
+    "color": "",
+    "price": 410
+},
+{
+    "picture": "2-product/img product/Ceiling fans/num6-Kwad.jpg",
+    "name": "Kwad",
+    "category": "Ceiling fans",
+    "color": "",
+    "price": 300
+},
+{
+    "picture": "2-product/img product/Ceiling fans/num7-Kerring.jpg",
+    "name": "Kerring",
+    "category": "Exhaust fans",
+    "color": "",
+    "price": 333
+},
+{
+    "picture": "2-product/img product/Ceiling fans/num8-Gleam.jpg",
+    "name": "Gleam",
+    "category": "Exhaust fans",
+    "color": "",
+    "price": 255
+},
+{
+    "picture": "2-product/img product/Pedestal fans/num1-Arden.jpg",
+    "name": "Arden",
+    "category": "Pedestal fans",
+    "color": "",
+    "price": 230
+},
+{
+    "picture": "2-product/img product/Pedestal fans/num2-Vornado.jpg",
+    "name": "Vornado",
+    "category": "Pedestal fans",
+    "color": "",
+    "price": 340
+},
+{
+    "picture": "2-product/img product/Pedestal fans/num3-Simon.jpg",
+    "name": "Simon",
+    "category": "Pedestal fans",
+    "color": "",
+    "price": 310
+},
+{
+    "picture": "2-product/img product/Pedestal fans/num4-Gordon.jpg",
+    "name": "Gordon",
+    "category": "Pedestal fans",
+    "color": "",
+    "price": 240
+},
+{
+    "picture": "2-product/img product/Pedestal fans/num5-Airos Eco.jpg",
+    "name": "Airos Eco",
+    "category": "Pedestal fans",
+    "color": "",
+    "price": 360
+},
+{
+    "picture": "2-product/img product/Pedestal fans/num6-Vornado Energy Smart.jpg",
+    "name": "Vornado Energy Smart",
+    "category": "Pedestal fans",
+    "color": "",
+    "price": 380
+},
+{
+    "picture": "2-product/img product/Pedestal fans/num7-Star Tripod.jpg",
+    "name": "Star Tripod",
+    "category": "Pedestal fans",
+    "color": "",
+    "price": 340
+},
+{
+    "picture": "",
+    "name": "5.1",
+    "category": "Exhaust fans",
+    "color": "",
+    "price": 65
+},
+{
+    "picture": "",
+    "name": "6.1",
+    "category": "Exhaust fans",
+    "color": "",
+    "price": 257
+},
+{
+    "picture": "",
+    "name": "1.3",
+    "category": "Pedestal fans",
+    "color": "",
+    "price": 41
+},
+{
+    "picture": "",
+    "name": "2.3",
+    "category": "Pedestal fans",
+    "color": "",
+    "price": 512
+},
+{
+    "picture": "",
+    "name": "3.3",
+    "category": "Pedestal fans",
+    "color": "",
+    "price": 481
+},
+{
+    "picture": "",
+    "name": "4.3",
+    "category": "Pedestal fans",
+    "color": "",
+    "price": 17
+},
+{
+    "picture": "",
+    "name": "5.3",
+    "category": "Pedestal fans",
+    "color": "",
+    "price": 9
+},
+{
+    "picture": "",
+    "name": "6.3",
+    "category": "Pedestal fans",
+    "color": "",
+    "price": 81
+},
+{
+    "picture": "",
+    "name": "1.4",
+    "category": "Wall fans",
+    "color": "",
+    "price": 49
+},
+{
+    "picture": "",
+    "name": "2.4",
+    "category": "Wall fans",
+    "color": "",
     "price": 999
 },
 {
     "picture": "",
-    "name": "Sp2",
-    "Category": "",
-    "Type": "",
-    "Color": "",
-    "Brands": "",
-    "price": 888
+    "name": "3.4",
+    "category": "Wall fans",
+    "color": "",
+    "price": 999
 },
 {
     "picture": "",
-    "name": "Sp3",
-    "Category": "",
-    "Type": "",
-    "Color": "",
-    "Brands": "",
-    "price": 888
+    "name": "4.4",
+    "category": "Wall fans",
+    "color": "",
+    "price": 999
 },
 {
     "picture": "",
-    "name": "Sp4",
-    "Category": "",
-    "Type": "",
-    "Color": "",
-    "Brands": "",
-    "price": 666
+    "name": "5.4",
+    "category": "Wall fans",
+    "color": "",
+    "price": 999
 },
 {
     "picture": "",
-    "name": "Sp5",
-    "Category": "",
-    "Type": "",
-    "Color": "",
-    "Brands": "",
-    "price": 444
-},
-{
-    "picture": "",
-    "name": "Sp6",
-    "Category": "",
-    "Type": "",
-    "Color": "",
-    "Brands": "",
-    "price": 333
-},
-{
-    "picture": "",
-    "name": "Sp7",
-    "Category": "",
-    "Type": "",
-    "Color": "",
-    "Brands": "",
-    "price": 222
-},
-{
-    "picture": "",
-    "name": "Sp5",
-    "Category": "",
-    "Type": "",
-    "Color": "",
-    "Brands": "",
-    "price": 444
-},
-{
-    "picture": "",
-    "name": "Sp6",
-    "price": 333
-},
-{
-    "picture": "",
-    "name": "Sp7",
-    "Category": "",
-    "Type": "",
-    "Color": "",
-    "Brands": "",
-    "price": 222
-},
-{
-    "picture": "",
-    "name": "Sp5",
-    "Category": "",
-    "Type": "",
-    "Color": "",
-    "Brands": "",
-    "price": 444
-},
-{
-    "picture": "",
-    "name": "Sp6",
-    "Category": "",
-    "Type": "",
-    "Color": "",
-    "Brands": "",
-    "price": 333
-},
-{
-    "picture": "",
-    "name": "Sp7",
-    "Category": "",
-    "Type": "",
-    "Color": "",
-    "Brands": "",
-    "price": 222
-},
-{
-    "picture": "",
-    "name": "Sp8",
-    "Category": "",
-    "Type": "",
-    "Color": "",
-    "Brands": "",
-    "price": 111
+    "name": "6.4",
+    "category": "Wall fans",
+    "color": "",
+    "price": 999
 }
+
+
 ]

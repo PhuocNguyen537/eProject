@@ -1,53 +1,74 @@
-<link rel="stylesheet" href="signIn.css">
-<section>
-    <h1>Register Product</h1>
-    <div class="row">
-        <div class="offset-3 col-md-6">
-            <form action="" name="form-sign-up" id="form-sign-up">
-                <div class="form-group">
+<link rel="stylesheet" href="/6-signIn/signIn.css">
+<div class="form">
+    <fieldset>
+        <div class="box6">
+            <h2>Sign In</h2>
+            <form action="/index.html" name="form-sign-up" id="form-sign-up">
+                <div >
                     <label for="">Name</label>
-                    <input type="text" class="form-control" name="name" id="name" required placeholder="Username*">
+                    <div class="blue">
+                        <i class="fas fa-user"></i> 
+                        <input type="text"  name="name" id="name" size="40" required placeholder="Username*">
+                    </div>
                 </div>
-                <div class="form-group">
+                <div >
                     <label for="">Password</label>
-                    <input type="text" class="form-control" name="name" id="pass" required placeholder="Password*">
+                    <div class="blue">
+                        <i class="fa-solid fa-lock"></i> 
+                        <input type="password" name="name" id="pass" size="40" required placeholder="Password*">
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="">Retype password</label>
-                    <input type="text" class="form-control" name="name" id="pass2" required
-                        placeholder="Retype Password*">
-                </div>
-                <div>
-                    <label for="">First name</label>
-                    <input type="text" class="form-control" name="first name" id="first name" required
-                        placeholder=" First Name*">
-                </div>
-                <div class="form-group">
-                    <label for="">Last name</label>
-                    <input type="text" class="form-control" name="last name" id="last name" required
-                        placeholder=" Last Name*">
-                </div>
-                <div class="form-group">
-                    <label for="">Email</label>
-                    <input type="email" class="form-control" name="email" id="email" required placeholder="Email*">
-                </div>
-                <div class="form-group">
-                    <label for="">Phone</label>
-                    <input type="text" class="form-control" name="phone" id="phone" required placeholder="Phone*">
-                </div>
-
-                <div>
-                    <input type="submit" value="SUBMIT" class="btn btn-info">
-                    <input type="reset" value="RESET" class="btn btn-danger">
+                <div >
+                    <input class="signin" type="submit" value="Login" >
                 </div>
             </form>
         </div>
-    </div>
-</section>
-
-
+    </fieldset>
+    <fieldset>
+        <div class="box6">
+            <h2>Sign Up</h2>
+            <form action="" name="form-sign-up" id="form-sign-up">
+                <div>
+                    <label for="">Username</label>
+                    <div class="blue">
+                        <i class="fas fa-user"></i> 
+                        <input type="text" name="name" id="name" size="40" required placeholder="Username*">
+                    </div>
+                </div>
+                <div>
+                    <label for="">Email</label>
+                    <div class="blue">
+                        <i class="fa-solid fa-envelope"></i> 
+                        <input type="email" name="email" id="email" size="40" required placeholder="Email*">
+                    </div>
+                </div>
+                <div>
+                    <label for="">Password</label>
+                    <div class="blue">
+                        <i class="fa-solid fa-lock"></i> 
+                        <input type="password" name="name" id="pass" size="40" required placeholder="Password*">
+                    </div>
+                </div>
+                <div>
+                    <label for="">Retype Password</label>
+                    <div class="blue">
+                        <i class="fa-solid fa-lock"></i> 
+                        <input type="password" name="name" id="pass2" size="40" required placeholder="Retype Password*">
+                    </div>
+                </div>
+                <div >
+                    <input type="submit" >
+                    <input type="reset" value="reset">
+                </div>
+            </form>
+        </div>
+    </fieldset>
 </div>
-</body>
+
+
+
+
+
 <script>
     document.getElementById("form-sign-up").onsubmit = function (e) {
         e.preventDefault();
@@ -64,19 +85,11 @@
         let name = document.getElementById("name").value;
         a.push(`ho ten: ${name}`);
 
-
-        let gender = document.getElementById("r-male").checked ? "nam" : "nu";
-        a.push(`gioi tinh: ${gender}`);
-
-        let address = document.getElementById("address").value;
-        a.push(`dia chi: ${address}`);
-
         let email = document.getElementById("email").value;
         a.push(`email: ${email}`);
 
         let phone = document.getElementById("phone").value;
         a.push(`so dien thoai: ${phone}`);
-
 
         alert(a.join("\n"));
 
@@ -84,9 +97,5 @@
         new_window.document.write("<pre>");
         new_window.document.writeln(a.join("<br>"));
         new_window.document.write("</pre>");
-
-
     }
 </script>
-
-</html>

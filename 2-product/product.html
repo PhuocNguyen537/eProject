@@ -1,40 +1,71 @@
-<div>
-    <link rel="stylesheet" href="/eProject/2-product/product.css" />
-    <div class="" >
-        <div class="row">
-            <div class="column side">
-                <div class="filter">
-                    <label for="">Search</label>
-                    <input type="text" placeholder="input product" ng-model="test">
-                </div>
-                <div>
-                    <label for="">Sort</label>
-                    <select name="Sortcode" ng-model="Sortcode">
-                        <option value="name"> Name</option>
-                        <option value="price"> Price</option>
-                    </select>
-                </div>
+<div class="container">
+    <link rel="stylesheet" href="/2-product/product.css" />
 
+    <div class="row">
+        <form class="formstyle">
+            <br>
+            <div class="search-box">
+                <input type="text" class="search-input" placeholder="Search product" ng-model="test">
+                <button class="search-btn"><i class="fa-solid fa-angles-right"></i></button>
+                
+                <script>
+                    document.querySelector('.search-btn').addEventListener('click', function () {
+                        this.parentElement.classList.toggle('open')
+                        this.previousElementSibling.focus()
+                    })
+                </script>
             </div>
-            <div class="column middle">
-                <div class="products">
-                    <div class="product" ng-repeat="item in listProduct | filter:test | orderBy: Sortcode">
-                        <div class="card">
-                            <div class="card__img">
-                                <img src="{{item.picture}}" alt="" />
-                            </div>
-                            <h2 class="card__title">{{item.name}}</h2>
-                            <p class="card__price">{{item.price}}</p>
-                        
-                            <div class="card__action">
-                                <button>Buy now</button>
-                                <button>Add cart</button>
-                            </div>
-                        </div> 
+            <br>
+            <div>
+                <input type="radio" name="sortcode" id="A-Z" value="name" ng-model="Sortcode" />
+                <label for="A-Z">A-Z</label>
+
+                <input type="radio" name="sortcode" id="Price" value="price" ng-model="Sortcode" />
+                <label for="Price">Price</label>
+
+                <input type="radio" onclick="reload_page()" id="Reset" value="Reset">
+                <label for="Reset">Reset</label>
+                <script>
+                    function reload_page() {
+                        location.reload();
+                    }
+                </script>
+            </div>
+            <br>
+            <div>
+                <input type="radio" name="Category" id="Ceiling fans" checked value="Ceiling fans" ng-model="category" />
+                <label for="Ceiling fans">Ceiling fans</label>
+    
+                <input type="radio" name="Category" id="Exhaust fans" checked value="Exhaust fans" ng-model="category" />
+                <label for="Exhaust fans">Exhaust fans</label>
+    
+                <input type="radio" name="Category" id="Pedestal fans" checked value="Pedestal fans" ng-model="category" />
+                <label for="Pedestal fans">Pedestal fans</label>
+    
+                <input type="radio" name="Category" id="Wall fans" checked value="Wall fans" ng-model="category" />
+                <label for="Wall fans">Wall fans</label>
+            </div>
+    
+        </form>
+
+        <div class="products">
+            <div class="product" ng-repeat="item in listProduct | filter:test |filter:category | orderBy: Sortcode">
+                <div class="card">
+                    <h2 class="card__category">{{item.category}}</h2>
+                    <div class="card__img">
+                        <img src="{{item.picture}}" alt="" />
+                    </div>
+                    <h2 class="card__title">{{item.name}}</h2>
+                    <p class="card__price">{{item.price}}</p>
+
+                    <div class="card__action">
+                        <button>Buy now</button>
+                        <!-- <button>View</button>
+                        <button>Add cart</button> -->
                     </div>
                 </div>
             </div>
         </div>
+
     </div>
 </div>
-
