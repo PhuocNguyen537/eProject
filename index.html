@@ -263,7 +263,7 @@
 
         //about us
         app.run(function ($rootScope, $http) {
-            $http.get("/4-about/about.json").then(function (response) {
+            $http.get("4-about/about.json").then(function (response) {
                 $rootScope.about = response.data.about;
                 console.log($rootScope.about);
             });
