@@ -15,11 +15,11 @@ Project title: Hudson Furnishing
 
 ============================
 
-github report link: 
+eProject document at: https://github.com/PhuocNguyen537/eProject/tree/master/Document
 
 ============================
 
-eProject published at https://phuocnguyen537.github.io/eProject/
+eProject published at: https://phuocnguyen537.github.io/eProject/
 
 
 Thanks you for spending your time to look at our work.
