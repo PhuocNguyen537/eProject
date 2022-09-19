@@ -120,12 +120,10 @@ html{
     display: flex;
     justify-content: space-between;
 }
-.rep img {
+/* .rep img {
     flex-direction: column-reverse;
     align-items: center;
-    height: auto;
-    width: auto;
-}
+} */
 .p1{  
     margin-top: 4rem;
     display: flex;
