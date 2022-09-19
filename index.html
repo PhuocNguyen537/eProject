@@ -124,24 +124,24 @@
         app.config(function ($routeProvider) {
             $routeProvider
                 .when("/", {
-                    templateUrl: "1-home/home.html"
+                    templateUrl: "home.html"
                 })
                 .when("/product", {
-                    templateUrl: "2-product/product.html",
+                    templateUrl: "product.html",
                     controller: "productCtrl"
                 })
                 .when("/gallery", {
-                    templateUrl: "3-gallery/gallery.html"
+                    templateUrl: "gallery.html"
                 })
                 .when("/about", {
-                    templateUrl: "4-about/about.html",
+                    templateUrl: "about.html",
                     controller: "aboutCtrl"
                 })
                 .when("/signin", {
-                    templateUrl: "6-signIn/signIn.html"
+                    templateUrl: "signIn.html"
                 })
                 .when("/contact", {
-                    templateUrl: "5-contact/contact.html"
+                    templateUrl: "contact.html"
                 });
         });
 
@@ -236,7 +236,7 @@
         //product
         app.run(function ($rootScope, $http) {
             //load du lieu tu file json (product.json) -> model [listProduct]
-            $http.get("2-product/product.json").then(function (response) {
+            $http.get("product.json").then(function (response) {
                 $rootScope.listProduct = response.data.products;
             });
         });
@@ -263,7 +263,7 @@
 
         //about us
         app.run(function ($rootScope, $http) {
-            $http.get("4-about/about.json").then(function (response) {
+            $http.get("about.json").then(function (response) {
                 $rootScope.about = response.data.about;
                 console.log($rootScope.about);
             });
