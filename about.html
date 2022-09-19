@@ -1,25 +1,24 @@
 <link rel="stylesheet" href="css/about.css">
 <div>
-    <div class="leftabout">
-        <div class="row">
-            <div class="about justify-content-around col-md-3" ng-repeat="item in about" ng-click=showA(item.id)
-                data-toggle="modal" data-target="#myModal">
-                <div class="aboutcard ">
-                    <div class="aboutcard_img ">
-                        <img src="{{item.image}}" alt="">
-                    </div>
-                    <h2>{{item.name}}</h2>
-                    <p>Web Developer</p>
-                    <div class="aboutcard_social">
-                        <a href=""><i class="fa-brands fa-facebook"></i></a>
-                        <a href=""><i class="fa-brands fa-github"></i></a>
-                        <a href=""><i class="fa-solid fa-envelope"></i></a>
-                    </div>
-                    <button>Contact Me</button>
+    <div class="row">
+        <div class="about justify-content-around col-md-3" ng-repeat="item in about" ng-click=showA(item.id)
+            data-toggle="modal" data-target="#myModal">
+            <div class="aboutcard ">
+                <div class="aboutcard_img ">
+                    <img src="{{item.image}}" alt="">
                 </div>
+                <h2>{{item.name}}</h2>
+                <p>Web Developer</p>
+                <div class="aboutcard_social">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-solid fa-envelope"></i></a>
+                </div>
+                <button>Contact Me</button>
             </div>
         </div>
     </div>
+
     <div class="modal fade" id="myModal" role="dialog">
         <div class="modal-dialog modal-lg">
 
