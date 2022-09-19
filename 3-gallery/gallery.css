@@ -5,6 +5,7 @@ body{
   background-color: aliceblue;
 }
 .wrapper {
+  padding: 40px;
   width: 1200px;
   display: flex;
   flex-wrap: wrap;

@@ -3,10 +3,9 @@ body {
     background: linear-gradient(12deg, rgba(132,132,241,1) 0%, rgba(120,201,221,1) 100%);
 }
 .about {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 10%;
-    margin: 100px 0;
+    display: inline-block;
+    padding: 20px 50px;
+    margin: 100px 30px;
 }
 .aboutcard {
     background-color: #0b1b33;
@@ -39,6 +38,10 @@ body {
 .aboutcard p {
     color: rgb(132,132,241);
     font-size: 20px;
+    margin: 20px;
+}
+.aboutcard e {
+    color: rgb(132,132,241);
 }
 .aboutcard_social a {
     color: #2E94E3;

@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     transition: all 0.3s ease 0s;
-    /* background-color: #ecf0f1; */
 }
 /* header */
 header   a, button{
@@ -18,10 +17,9 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 10%;
+    padding: 10px 10%;
     background-color: #061121;
     max-height: 90px;
-    
 }
 .signin button {
     padding: 9px 25px;
@@ -36,73 +34,83 @@ header{
 .link{
     align-items: center;
     list-style: none;
-}
-.link li{
-    display: inline-block;
-    padding: 0px 20px;
-
+    margin: 0px;
+    
 }
 .link a{
-    position: relative;
     text-decoration: none;
+    padding: 15px;
+    transition: 0.25s;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    z-index: 1;
+    font-size: 20px;
 }
-.link li a:hover{
+
+.link a:hover{
     color: #46abc4;
     text-decoration: none;
-    border-bottom: 2px solid #0f9dc1;
-    font-size: x-large;
-    /* color: rgb(132,132,241);
-    color: linear-gradient(156deg, rgba(132,132,241,1) 35%, rgba(120,201,221,1) 100%); */
+}
+.animation {
+    position: relative;
+    height: 5px;
+    bottom: 0px;
+    /* z-index: 0; */
+    left: 180px;
+    background-color: #27abcc;
+    border-radius: 8px;
+    width: 80px;
+}
+.link a:nth-child(1){
+    width: 80px;
+}
+.start-home,a:nth-child(1):focus~.animation{
+    width: 80px;
+    left: 5px;
+}
+.link a:nth-child(2){
+    width: 110px;
+}
+.start-Product,a:nth-child(2):focus~.animation{
+    width: 100px;
+    left: 100px;
+}
+.link a:nth-child(3){
+    width: 120px;
+}
+.start-home,a:nth-child(3):focus~.animation{
+    width: 85px;
+    left: 220px;
+}
+.link a:nth-child(4){
+    width: 120px;
+}
+.start-home,a:nth-child(4):focus~.animation{
+    width: 110px;
+    left: 320px;
+}
+.link a:nth-child(5){
+    width: 120px;
+}
+.start-home,a:nth-child(5):focus~.animation{
+    width: 120px;
+    left: 453px;
+}
+.link a:hover{
+    text-decoration: none;
+    color: white;
 }
 a:hover{
     text-decoration: none;
 }
-
-/* .link a::after{
-    content: "";
-    position: absolute;
-    background-color: #d3dde5;
-    height: 3px;
-    width: 0;
-    left: 0;
-    bottom: -10px;
-    transition: 0.3s;
-}
-link a:hover::after{
-    width: 100%;
-} */
-/* a:hover::before{
-    text-decoration: none;
-    width: 100%;
-    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
-} */
-/* .link li a::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 100%;
-    width: 0%;
-    height: 2px;
-    background: #0088a9;
-   
-} */
-/* .link li a::after{
-    content: '';
-    position: absolute;
-    bottom: -5px;
-    left: 100%;
-    width: 0%;
-    height: 2px;
-    background: #0088a9;
-    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
-} */
 .signin button:hover{
     background-color: #2E94E3;
     box-shadow: 0 0 30px #2E94E3;
-    /* font-size: larger; */
-    /* border-style: none; */
 }
-
+html{
+    scroll-behavior: smooth;
+}
 /* main */
 .slide {
     object-fit: cover;
@@ -244,8 +252,12 @@ ul{
     border-radius: 3px;
 }
 .scroll {
+    align-items: center;
     display: flex;
-    justify-content: right;
+    justify-content: right; 
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
 }
 .scroll button {
     padding: 9px 25px;
@@ -255,4 +267,8 @@ ul{
 }
 .scroll button:hover {
     background-color: #2E94E3;
+}
+.scroll p {
+    margin: 0px 0px;
+    color: white;
 }

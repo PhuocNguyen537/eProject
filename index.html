@@ -15,26 +15,25 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-route.min.js"></script>
 
+    <!-- <link rel="stylesheet" href="swiper-bundle.min.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     <link rel="stylesheet" href="/1-home/home.css">
-
 
 </head>
 
 <body ng-app="myAPP">
     <header>
-        <nav class="link1">
-            <ul class="link">
-                <li><a href="#/!">Home</a></li>
-                <li><a href="#!product">Product</a></li>
-                <li><a href="#!gallery">Gallery</a></li>
-                <li><a href="#!about">About Us</a></li>
-                <li><a href="#!contact">Contact Us</a></li>
-
-            </ul>
+        <nav class="link">
+            <a href="#/!">Home</a>
+            <a href="#!product">Product</a>
+            <a href="#!gallery">Gallery</a>
+            <a href="#!about">About Us</a>
+            <a href="#!contact">Contact Us</a>
+            <div class="animation start-home"></div>
         </nav>
-        <nav class="_wau272">
+        <nav>
             <a class="signin" href="#!signin"><button>Sign In</button> </a>
             <img class="logo" src="img/logo3.jpg" alt="">
             <a class="navbar website-counter fas fa-user-alt"></a>
@@ -43,6 +42,7 @@
 
     <main>
         <div ng-view></div>
+
     </main>
 
     <footer class="footer">
@@ -56,9 +56,7 @@
                         <li><a href="#!gallery">Gallery</a></li>
                         <li><a href="#!about">About us</a></li>
                         <li><a href="#!contact">Contact us</a></li>
-                        <li><a href="#!signIn">Sign In</a></li>
-
-
+                        <li><a href="#!signin">Sign In</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
@@ -78,7 +76,6 @@
                         <li><a href="">Pedestal fans</a></li>
                         <li><a href="">Wall fans</a></li>
                         <li><a href="">Exhaust fans</a></li>
-
                     </ul>
                 </div>
                 <div class="footer-col">
@@ -89,7 +86,7 @@
                         <a href="#"><i class="fab fa-instagram"></i></a>
                         <a href="#"><i class="fab fa-linkedin-in"></i></a>
                     </div>
-                    <div class="datetime" ng-controller="dateCTR" onload="initclock()">
+                    <div class="datetime" onload="initclock()">
                         <div class="date">
                             <span id="daynum"></span>,
                             <span id="month"></span>
@@ -106,8 +103,18 @@
                 </div>
             </div>
         </div>
+
         <div class="scroll">
             <!-- scroll start -->
+            <p id="clock"></p>
+            <script>
+                setInterval(myTimer, 1000);
+
+                function myTimer() {
+                    const d = new Date();
+                    document.getElementById("clock").innerHTML = d.toLocaleTimeString();
+                }
+            </script>
             <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up"></i></button>
         </div>
     </footer>
@@ -124,43 +131,34 @@
                     controller: "productCtrl"
                 })
                 .when("/gallery", {
-                    templateUrl: "3-gallery/gallery.html",
-                    // controller : "appCTR"
+                    templateUrl: "3-gallery/gallery.html"
                 })
                 .when("/about", {
                     templateUrl: "4-about/about.html",
-                    // controller : "appCTR"
+                    controller: "aboutCtrl"
                 })
                 .when("/signin", {
-                    templateUrl: "6-signIn/signIn.html",
-                    // controller : "appCTR"
+                    templateUrl: "6-signIn/signIn.html"
                 })
                 .when("/contact", {
-                    templateUrl: "5-contact/contact.html",
-                    // controller: "addCTR"
+                    templateUrl: "5-contact/contact.html"
                 });
         });
 
-        //navbar- count 
-        // var counterContainer = document.querySelector(".website-counter");
-        // var resetButton = document.querySelector("#reset");
-        // var visitCount = localStorage.getItem("page_view");
+        // VisitCount
+        var counterContainer = document.querySelector(".website-counter");
+        var resetButton = document.querySelector("#reset");
+        var visitCount = localStorage.getItem("page_view");
 
-        // Check if page_view entry is present
-        // if (visitCount) {
-        //     visitCount = Number(visitCount) + 1;
-        //     localStorage.setItem("page_view", visitCount);
-        // } else {
-        //     visitCount = 1;
-        //     localStorage.setItem("page_view", 1);
-        // }
-        // counterContainer.innerHTML = visitCount;
+        if (visitCount) {
+            visitCount = Number(visitCount) + 1;
+            localStorage.setItem("page_view", visitCount);
+        } else {
+            visitCount = 1;
+            localStorage.setItem("page_view", 1);
+        }
+        counterContainer.innerHTML = visitCount;
 
-        // visitCount()
-
-        // function visitCount() {
-        //     fetch()
-        // }
 
         //home-time footer
         function clock() {
@@ -204,16 +202,6 @@
                     daynum = "Saturday";
                     break;
             }
-
-            // var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-            // var weeks = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-            // var ids = ["day","month","year","hour","minutes","seconds","period"];
-            // var values = [weeks[day],months[mon],year,hou,min,sec,period];
-            // for (var i = 0; i < ids.length; i++) {
-            //     document.getElementById(ids[i]).firstChild.nodeValue = values[i];
-
-            // }
-
             document.getElementById("daynum").innerHTML = daynum;
             document.getElementById("day").innerHTML = day;
             document.getElementById("month").innerHTML = mon;
@@ -246,39 +234,54 @@
         }
 
         //product
-        app.controller("productCtrl", function ($scope, $http) {
+        app.run(function ($rootScope, $http) {
             //load du lieu tu file json (product.json) -> model [listProduct]
-            $http.get("2-product/product.json").then(function (response) {
-                $scope.listProduct = response.data;
+            $http.get("/2-product/product.json").then(function (response) {
+                $rootScope.listProduct = response.data.products;
             });
         });
 
+        app.controller("productCtrl", function ($scope, $rootScope) {
+            $scope.show = function (id) {
+                let data = $rootScope.listProduct;
+                let item = data.find(v => v.id == id);
 
+                $scope.brand = item.brand;
+                $scope.picture = item.picture;
+                $scope.title = item.title;
+                $scope.category = item.category;
+                $scope.fanColor = item.fanColor;
+                $scope.price = item.price;
+                $scope.description = [];
 
+                for (let i = 0; i < item.description.length; i++) {
+                    $scope.description += item.description[i];
+                }
 
-        // app.run(function ($rootScope, $http) {
-        //     $http.get("employees.json").then(function (response) {
-        //         $rootScope.ds = response.data.employees;
-        //         console.log($rootScope.ds)
-        //     });
-        // })
+            };
+        });
 
-        // app.controller("listCTR", function ($scope) {
-        //     $scope.remove = function (index) {
-        //         let yes = confirm("Are you sure you ?");
-        //         if (yes) {
-        //             $scope.ds.splice(index, 1);
-        //         }
-        //     }
-        // });
+        //about us
+        app.run(function ($rootScope, $http) {
+            $http.get("/4-about/about.json").then(function (response) {
+                $rootScope.about = response.data.about;
+                console.log($rootScope.about);
+            });
+        });
 
-        // app.controller("addCTR", function ($scope) {
-        //     $scope.add = function () {
-        //         let newItem = { "name": $scope.name, "department": $scope.department, "email": $scope.email };
-        //         $scope.ds.push(newItem);
-        //         alert(" Add New Data Succeeded !")
-        //     }
-        // })
+        app.controller("aboutCtrl", function ($scope, $rootScope) {
+            $scope.showA = function (id) {
+                let aboutdata = $rootScope.about;
+                let person = aboutdata.find(a => a.id == id);
+
+                $scope.name = person.name;
+                $scope.gmail = person.gmail;
+                $scope.telephone = person.telephone;
+                $scope.image = person.image;
+
+                console.log(about);
+            }
+        });
     </script>
 </body>
 

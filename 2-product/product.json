@@ -1,207 +1,453 @@
-[
 {
-    "picture": "2-product/img product/Ceiling fans/num1-Amped.jpg",
-    "name": "Amped",
-    "category": "Ceiling fans",
-    "color": "",
-    "price": 200
-},
-{
-    "picture": "2-product/img product/Ceiling fans/num2-SpitfireDC.jpg",
-    "name": "Spitfire DC",
-    "category": "Ceiling fans",
-    "color": "",
-    "price": 239
-},
-{
-    "picture": "2-product/img product/Ceiling fans/num3-Edgewood.jpg",
-    "name": "Edgewood",
-    "category": "Ceiling fans",
-    "color": "",
-    "price": 234
-},
-{
-    "picture": "2-product/img product/Ceiling fans/num4-PCDC+Light.jpg",
-    "name": "PCDC Light",
-    "category": "Ceiling fans",
-    "color": "",
-    "price": 400
-},
-{
-    "picture": "2-product/img product/Ceiling fans/num5-SculptAire.jpg",
-    "name": "Sculpt Aire",
-    "category": "Ceiling fans",
-    "color": "",
-    "price": 410
-},
-{
-    "picture": "2-product/img product/Ceiling fans/num6-Kwad.jpg",
-    "name": "Kwad",
-    "category": "Ceiling fans",
-    "color": "",
-    "price": 300
-},
-{
-    "picture": "2-product/img product/Ceiling fans/num7-Kerring.jpg",
-    "name": "Kerring",
-    "category": "Exhaust fans",
-    "color": "",
-    "price": 333
-},
-{
-    "picture": "2-product/img product/Ceiling fans/num8-Gleam.jpg",
-    "name": "Gleam",
-    "category": "Exhaust fans",
-    "color": "",
-    "price": 255
-},
-{
-    "picture": "2-product/img product/Pedestal fans/num1-Arden.jpg",
-    "name": "Arden",
-    "category": "Pedestal fans",
-    "color": "",
-    "price": 230
-},
-{
-    "picture": "2-product/img product/Pedestal fans/num2-Vornado.jpg",
-    "name": "Vornado",
-    "category": "Pedestal fans",
-    "color": "",
-    "price": 340
-},
-{
-    "picture": "2-product/img product/Pedestal fans/num3-Simon.jpg",
-    "name": "Simon",
-    "category": "Pedestal fans",
-    "color": "",
-    "price": 310
-},
-{
-    "picture": "2-product/img product/Pedestal fans/num4-Gordon.jpg",
-    "name": "Gordon",
-    "category": "Pedestal fans",
-    "color": "",
-    "price": 240
-},
-{
-    "picture": "2-product/img product/Pedestal fans/num5-Airos Eco.jpg",
-    "name": "Airos Eco",
-    "category": "Pedestal fans",
-    "color": "",
-    "price": 360
-},
-{
-    "picture": "2-product/img product/Pedestal fans/num6-Vornado Energy Smart.jpg",
-    "name": "Vornado Energy Smart",
-    "category": "Pedestal fans",
-    "color": "",
-    "price": 380
-},
-{
-    "picture": "2-product/img product/Pedestal fans/num7-Star Tripod.jpg",
-    "name": "Star Tripod",
-    "category": "Pedestal fans",
-    "color": "",
-    "price": 340
-},
-{
-    "picture": "",
-    "name": "5.1",
-    "category": "Exhaust fans",
-    "color": "",
-    "price": 65
-},
-{
-    "picture": "",
-    "name": "6.1",
-    "category": "Exhaust fans",
-    "color": "",
-    "price": 257
-},
-{
-    "picture": "",
-    "name": "1.3",
-    "category": "Pedestal fans",
-    "color": "",
-    "price": 41
-},
-{
-    "picture": "",
-    "name": "2.3",
-    "category": "Pedestal fans",
-    "color": "",
-    "price": 512
-},
-{
-    "picture": "",
-    "name": "3.3",
-    "category": "Pedestal fans",
-    "color": "",
-    "price": 481
-},
-{
-    "picture": "",
-    "name": "4.3",
-    "category": "Pedestal fans",
-    "color": "",
-    "price": 17
-},
-{
-    "picture": "",
-    "name": "5.3",
-    "category": "Pedestal fans",
-    "color": "",
-    "price": 9
-},
-{
-    "picture": "",
-    "name": "6.3",
-    "category": "Pedestal fans",
-    "color": "",
-    "price": 81
-},
-{
-    "picture": "",
-    "name": "1.4",
-    "category": "Wall fans",
-    "color": "",
-    "price": 49
-},
-{
-    "picture": "",
-    "name": "2.4",
-    "category": "Wall fans",
-    "color": "",
-    "price": 999
-},
-{
-    "picture": "",
-    "name": "3.4",
-    "category": "Wall fans",
-    "color": "",
-    "price": 999
-},
-{
-    "picture": "",
-    "name": "4.4",
-    "category": "Wall fans",
-    "color": "",
-    "price": 999
-},
-{
-    "picture": "",
-    "name": "5.4",
-    "category": "Wall fans",
-    "color": "",
-    "price": 999
-},
-{
-    "picture": "",
-    "name": "6.4",
-    "category": "Wall fans",
-    "color": "",
-    "price": 999
+    "products": [
+        {   "id":1,
+            "brand": "Deton",
+            "picture": "2-product/img product/Ceiling fans/num1-ICF Series lndustrial.jpg",
+            "title": "ICF",
+            "category": "Ceiling fans",
+            "fanColor": "fanSilver",
+            "price": 200,
+            "description": ["Matching permanent magnet external rotor motor, high efficiency and energy saving, light weight and stepless speed regulation. ", 
+            "Blade is designed with high lift-resistance ration aviation airfoil with large air volume, high efficiency, uniform air pressure and large coverage area. ", 
+            "Blade is made of aviation polymer composite material with light weight, high safety and easy installation. ",    
+            "The product adopts 12 safety protection ,making it safer and more durable. "]
+        },
+        {
+            "id":2,
+            "brand":"Fanimation",
+            "picture": "2-product/img product/Ceiling fans/num2-Amped.jpg",
+            "title": "Amped",
+            "category": "Ceiling fans",
+            "fanColor": "fanGold",
+            "price": 269,
+            "description": ["This fan features 5 blades with a 52 inch blade span and an 18 watt LED Light Kit. ","Fan speed: 3-speed AC with reverse switch on fan. ",
+            "Dry rated: Indoor only. ",
+            "Blades: 52 sweep blades. ",
+            "Lighting: 18-Watt LED, Lumens: 1,500 (initial), Color Temp: 3,000K, CRI: 90%. ",
+            "Accessories: Included 4.5 downrod. "]
+        },
+        {
+            "id":3,
+            "brand":"Fanimation",
+            "picture": "2-product/img product/Ceiling fans/num3-Kwartet.jpg",
+            "title": "Kwartet",
+            "category": "Ceiling fans",
+            "fanColor": "fanGold",
+            "price": 319,
+            "description": ["Fan Speed: 3-speed AC with reverse switch on fan. ",
+            "Damp rated: Indoor/Outdoor. ",
+            "Blades: 52 sweep blades. ",
+            "Lighting: CCT Select: 3 Color temperature options 18-Watt LED, Lumens: 1600 (initial), Color Temp: 3000/4000/5000K, CRI: 90%. ",
+            "Accessories: Included matching light cover for use without downlight. "]
+        },
+        {
+            "id":4,
+            "brand":"Fanimation",
+            "picture": "2-product/img product/Ceiling fans/num4-Kerring.jpg",
+            "title": "Kerring",
+            "category": "Ceiling fans",
+            "fanColor": "fanGold",
+            "price": 309,
+            "description": ["Fan Speed: 3-speed AC with reverse switch on fan. ",
+            "Dry rated: Indoor only. ",
+            "Blades: 14 sweep clear blades. ",
+            "Lighting:  3.8-Watt LED bulbs, Lumens: 3200 (initial), Color Temp: 3000K, CRI: 90%. ",
+            "Accessories: Included 4.5 downrod. "]
+        },
+        {
+            "id":5,
+            "brand":"Fanimation",
+            "picture": "2-product/img product/Ceiling fans/num5-Klout.jpg",
+            "title": "Klout",
+            "category": "Ceiling fans",
+            "fanColor": "fanGold",
+            "price": 559,
+            "description": ["Fan Speed: 3-speed AC with reverse switch on fan. ",
+            "Dry rated: Indoor only. ",
+            "Blades: 12 sweep clear blades. ",
+            "Lighting: 6-Watt LED bulbs, Lumens: 2500 (initial), Color Temp: 2700K, CRI: 90%. ",
+            "Accessories: Included 4.5 downrod. "]
+        },
+        {
+            "id":6,
+            "brand":"Fanimation",
+            "picture": "2-product/img product/Ceiling fans/num6-Spitfire 60.jpg",
+            "title": "Spitfire 60",
+            "category": "Ceiling fans",
+            "fanColor": "fanGold",
+            "price": 229,
+            "description": ["Spitfire features an exquisite three bladed design with many rich finish offerings to choose from.  It is available in a 48 or 60 inch blade sweep and features an optional LED light kit.  Recommended for use in damp locations. ",
+            "Fan Speed: 3-speed AC with reverse switch on fan. ",
+            "Damp rated: Indoor/Outdoor. ",
+            "Blades: 12 sweep clear blades. ",
+            "Lighting: Available LK6721B** - 18W LED Spitfire only light kit. ",
+            "Accessories: Included 4.5 downrod. "]
+        },
+        {
+            "id":7,
+            "brand":"Fanimation",
+            "picture": "2-product/img product/Ceiling fans/num7-Edgewood 52.jpg",
+            "title": "Edgewood 52",
+            "category": "Ceiling fans",
+            "fanColor": "fanWhite",
+            "price": 190,
+            "description": ["The Edgewood by Fanimation is an aesthetically pleasing ceiling fan that has it all. The Edgewood boasts the unique capacity to operate in both dry and wet locations. This versatile ceiling fan compliments any interior or exterior design with finish options ranging from black with black blades, brushed nickel with dark walnut blades, dark bronze with dark walnut blades and matte white with matte white blades. ",
+            "Fan Speed: 3-speed AC with reverse switch on fan. ",
+            "Wet rated: Indoor/Outdoor. ",
+            "Blades: 52 sweep clear blades. ",
+            "Lighting: 8.5W LED globe light fitter. ",
+            "Accessories: Included 4.5 downrod. "]
+        },
+        {
+            "id":8,
+            "brand":"Fanimation",
+            "picture": "2-product/img product/Ceiling fans/num8-TriAir 60.jpg",
+            "title": "TriAir 60",
+            "category": "Ceiling fans",
+            "fanColor": "fanWhite",
+            "price": 179,
+            "description": ["The TriAire Custom by Fanimation fits any style in any location.  With eight different blade sweeps in multiple finishes, you can create the TriAire Custom that fits your space.  This wet rated ceiling fan has a 31 speed DC motor. Light kit, blades and motor sold separately. ",
+            "Fan Speed: 16 speed DC with reverse switch on remote. ",
+            "Wet rated: Indoor/Outdoor. ",
+            "Blades: 60 sweep clear blades. ",
+            "Controls: Included: light remote. ",
+            "Accessories: Included 4.5 downrod. "]
+        },
+        {
+            "id":9,
+            "brand": "Deton",
+            "picture": "2-product/img product/Pedestal fans/num1-DFK Series Powerful Fan.jpg",
+            "title": "DFK Series",
+            "category": "Pedestal fans",
+            "fanColor": "fanBlack",
+            "price": 129,
+            "description": ["Streamlined aluminum blade, large air volume and low noise. ", 
+            "The motor adopts cold-rolled silicon steel sheet, copper enameled wire, less than 50K temperature rise design, with excellent overload capacity.The motor uses high quality low noise metal gear box and built-in re-settable thermal protector to ensure stable operation, the fan can run 5000 hours continuously. ", 
+            "Strong stand pole and big round iron base, with good stability. ",
+            "Three speeds, height adjustable, oscillation adjustable within 0~90°. ",
+            "Used for cooling and ventilation in factories,workshops, warehouses and more. "]
+        },
+        {
+            "id":10,
+            "brand": "Deton",
+            "picture": "2-product/img product/Pedestal fans/num2-Misting Fan.jpg",
+            "title": "Misting Fan",
+            "category": "Pedestal fans",
+            "fanColor": "fanBlack",
+            "price": 179,
+            "description": ["Centrifugal misting system means no nozzles and filter needed. ",
+            "Adjustable misting volume, low noise. ",
+            "Air supplying, misting and oscillating functions are driven by different motors.convenient to use and easy to maintain. ",
+            "Fan surface is epoxy resin coated, anti-rust and durable. ",
+            "90° left and right oscillation angle,three speeds. ",
+            "The motor is low temperature-rise designed, adopts cold-rolled silicon steel sheet and pure copper winding, and it has a re-settable thermal protector，which ensure stable performance, long service life and strong overload capacity. "]
+        },
+        {
+            "id":11,
+            "brand": "Deton",
+            "picture": "2-product/img product/Pedestal fans/num3-DFP Series Stand Powerful Fan.jpg",
+            "title": "DFP Series",
+            "category": "Pedestal fans",
+            "fanColor": "fanBlack",
+            "price": 119,
+            "description": ["Optimized blade structure, die-casting aluminum blade. ",
+            "Large air volume, low noise. ",
+            "The motor adopts cold-rolled silicon steel sheet, copper enameled wire, less than 50K temperature rise design, with excellent overload capacity. The motor uses high quality low noise metal gear box and built-in re-settable thermal protector to ensure stable operation, the fan can run 5000 hours continuously. ",
+            "Three speeds, oscillation angle adjustable. ",
+            "Used for cooling and ventilation in factories, workshops, warehouses, and more. "]
+        },
+        {
+            "id":12,
+            "brand": "Air King",
+            "picture": "2-product/img product/Pedestal fans/num4-Air King Oscillating Office Pedestal Fan.jpg",
+            "title": "Air King 9119",
+            "category": "Pedestal fans",
+            "fanColor": "fanWhite",
+            "price": 109,
+            "description": ["Oscillating office pedestal fans cool clean, dry environments using a pivoting fan head that turns from side to side to blow air over a wider area than non-oscillating fans. The fan head can also be locked in a fixed position for targeted cooling. ",
+            "Office pedestal fans have a sturdy base and an adjustable-height post, so they can be placed on the floor and directed where needed. ",
+            "The pedestal bases provide stable footing without requiring permanent installation, so the fans can be moved when necessary. ",
+            "The posts can be raised and lowered to set fan heads at an optimal height. ",
+            "These cooling fans have a motor that rotates the fan blades to move air and a guard that helps protect the blades from damage and prevent injuries from accidental contact. "]
+        },
+        {
+            "id":13,
+            "brand": "Deton",
+            "picture": "2-product/img product/Pedestal fans/num5-Axial Misting Fan.jpg",
+            "title": "Axial",
+            "category": "Pedestal fans",
+            "fanColor": "fanWhite",
+            "price": 300,
+            "description": ["Long Misting Distance. ",
+            " Large Misting Volume. ",
+            "Waterproof Design. ",
+            "Convenient Movement.",
+            "Oscillation 90 degree. ",
+            "Adjustable Pitching Angle. ",
+            "Safety Lovked Wheel. ",
+            " Designed for cooling large areas such as constructionsite,farm,factory warehouse,sports field. "]
+        },
+        {
+            "id":14,
+            "brand": "Deton",
+            "picture": "2-product/img product/Pedestal fans/num6-CF Series Commercial Fan.jpg",
+            "title": "CF Series",
+            "category": "Pedestal fans",
+            "fanColor": "fanBlack",
+            "price": 99,
+            "description": [" Streamlined aluminum blade, low noise, large air volume, and soft air supply. ",
+            "The motor adopts cold-rolled silicon steel sheet, copper enameled wire with very small loss, less than 50K. temperature rise design, with excellent overload capacity. ",
+            "The motor uses high quality low noise ball bearing and built-in re-settable thermal protector to ensure stable operation. ",
+            " The fan can run 5000 hours continuously. ",
+            "ldeal choice for cooling at home, or in offices, hotels, stores, restaurants, and more. "]
+        },
+        {
+            "id":15,
+            "brand": "Fanimation",
+            "picture": "2-product/img product/Pedestal fans/num7-Arden.jpg",
+            "title": "Arden",
+            "category": "Pedestal fans",
+            "fanColor": "fanSilver",
+            "price": 159,
+            "description": ["The Arden by Fanimation performs double duty, combining functionality with aesthetics. ",
+            "The Arden by Fanimation performs double duty, combining functionality with aesthetics. The Walnut finish legs and the fan’s finish recall the clean and classic lines of an architect’s tripod, dovetailing nicely with transitional as well as classic décor. The Arden stands just under 44 inches high (including grill). A three-speed rotary switch provides a trio of comfort levels. All Fanimation motors are protected by a limited lifetime warranty. ",
+            "Fan speed: 3-speed no reverse. ",
+            "Dry: Indoor only. ",
+            "Controls: Included: Rotary. "]
+        },
+        {
+            "id":16,
+            "brand": "Fanimation",
+            "picture": "2-product/img product/Pedestal fans/num8-Old Havana.jpg",
+            "title": "Old Havana",
+            "category": "Pedestal fans",
+            "fanColor": "fanBlack",
+            "price": 199,
+            "description": ["The strong silhouette and intricate details of the Old Havana epitomize Old World class and sophistication. The Old Havana has an antique style that is reminiscent of a time when people relied solely on fans to stay cool. Although the Old Havana’s historic look would make its pre-air conditioning predecessors proud, its modern engineering allows this fan to operate on three speeds in both dry and damp locations. The Old Havana has several mounting options which include a black pedestal base, black floor/desk mount and a black ceiling mount. The Old Havana is available in antique copper with black and pewter finish for dry locations and black and rust finish for damp locations. ",
+            "Fan speed: 3-speed no reverse. ",
+            "Dry or damp rated: Model specific. ",
+            "Controls: Included: Rotary. "]
+        },
+        {
+            "id":17,
+            "brand": "Deton",
+            "picture": "2-product/img product/Wall fans/num1-DFP Series Wall Powerful Fan.jpg",
+            "title": "DFP Series",
+            "category": "Wall fans",
+            "fanColor": "fanBlack",
+            "price": 119,
+            "description": ["Optimized blade structure, die-casting aluminum blade. ",
+            "The motor adopts cold-rolled silicon steel sheet, copper enameled wire, less than 50K temperature rise design, with excellent overload capacity. The motor uses high quality low noise metal gear box and built-in re-settable thermal protector to ensure stable operation, the fan can run 5000 hours continuously. ",
+            " Two or three blades is optional. Metal base or plastic base (can pass 0.8 meter's drop test) is optional for stand type; pull cord switch can be added with additional price for wall fan. ",
+            "Three speeds, oscillation angle adjustable. "]
+        },
+        {
+            "id":18,
+            "brand": "Air King",
+            "picture": "2-product/img product/Wall fans/num2-Air King 9070 30-Inch Industrial Grade Wall Mount Fan.jpg",
+            "title": "Air King 9070",
+            "category": "Wall fans",
+            "fanColor": "fanBlack",
+            "price": 79,
+            "description": ["30-inch powder coated metal blade. ",
+            "3-speed, 1/3-Horsepower, 120-volt, 1-phase, totally enclosed ball bearing motor. ",
+            "Rear mounted pull cord switch and a black, 10-foot, 3-conductor SJT type power cord. ",
+            "ETL and OSHA compliant and tested in accordance with AMCA standard 230.99. ",
+            "Comes with a 1-year limited warranty. "]
+        },
+        {
+            "id":19,
+            "brand": "Deton",
+            "picture": "2-product/img product/Wall fans/num3-XDF-45 Orbit Fan.jpg",
+            "title": "XDF-45",
+            "category": "Wall fans",
+            "fanColor": "fanWhite",
+            "price": 49,
+            "description": ["Streamlined aluminum blade, low noise, large air volume, and soft air supply. ",
+            "Streamlined blade, large air volume, low noise. ",
+            "Oscillation mechanism controlled by micro motor, with durability. ",
+            "Low temperature-rise designed motor ensures long service lifeand strong over-loading capacity. ",
+            "360°rotary direction, adjustable blowing angle, three speeds. ",
+            "The best choice for cooling and ventilation in offices, schools,hotels, supermarkets, bus stations and more. "]
+        },
+        {
+            "id":20,
+            "brand": "Air King",
+            "picture": "2-product/img product/Wall fans/num4-Air King 9318 Industrial Grade High Velocity Muti Mount Fan.jpg",
+            "title": "Air King 9318",
+            "category": "Wall fans",
+            "fanColor": "fanBlack",
+            "price": 89,
+            "description": ["Multi-Mount Industrial Fan: Industrial-grade pivoting multi-mount fan is great for the warehouses, garages, gyms, restaurants, hospitals, churches, and more; 18-inch fan blade creates powerful air circulation. ",
+            "3-Speed Design: 3 speeds for customizable comfort, 1/6 HP, 120V, 1 phase, totally enclosed, ball bearing, permanently lubricated, permanent split capacitor. ",
+            "Long Lasting: Powder-coated steel blade, guards, and mount for long-lasting use. ",
+            "9-Foot Cord: 9-foot, 3-conductor, SJT power cord allows for placement wherever you need a breeze; Rear-mounted pull cord switch to control power and speed. "]
+        },
+        {
+            "id":21,
+            "brand": "Air King",
+            "picture": "2-product/img product/Wall fans/num5-Air King 9018 Commercial Grade Oscillating Wall Mount Fan.jpg",
+            "title": "Air King 9018",
+            "category": "Wall fans",
+            "fanColor": "fanSilver",
+            "price": 49,
+            "description": ["3-Speed, 1/20 HP, 120V, 1 phase, permanently lubricated, permanent split capacitor motor. ",
+            "Constructed of metal front grill with impact resistant plastic rear grill and chemical resistant polypropylene blade. ",
+            "Front mounted rotary and pull cord switch and White, 7-foot, 3-conductor, SPT-2-R type power cord. ","90 degree oscillation or can be locked in non-oscillating position. ",
+            "ETL and OSHA compliant; Tested in accordance with AMCA standard 230. 99. "]
+        },
+        {
+            "id":22,
+            "brand": "Air King",
+            "picture": "2-product/img product/Wall fans/num6-Air King Home Garage Steel Wall Mounted Fan.jpg",
+            "title": "Air King 9218",
+            "category": "Wall fans",
+            "fanColor": "fanBlack",
+            "price": 99,
+            "description": ["Wall-mount, non-oscillating fan with 20-inch blade diameter cools and circulates hot stuffy air; Overall dimensions (L x W x H): 26.5 x 16.5 x 29.5 inches; Weight: 26 pounds. ",
+            "A wall-mount base, fan head with blade, motor with power cord, and grills (mounting hardware not included). ",
+            "Ideal for workshops, health clubs, stores, classrooms, garages, offices, and other areas where there is limited floor and table space. ",
+            "3 fan speeds allow you to adjust cooling temperature to fit your needs. "]
+        },
+        {
+            "id":23,
+            "brand": "Air King",
+            "picture": "2-product/img product/Wall fans/num7-Air King 16 Wall Mount Fan.jpg",
+            "title": "Air King 9020",
+            "category": "Wall fans",
+            "fanColor": "fanWhite",
+            "price": 39,
+            "description": ["Featuring impact- and chemical-resistant polypropylene propellers, this AIR KING oscillating wall-mount fan has an easy rotary knob and pull cord operation. Includes power cord with integrated grounded safety plug. OSHA-compliant guards Tested to AMCA standard 230-99 and ETL Listed. ",
+            "",
+            ""]
+        },
+        {
+            "id":24,
+
+            "picture": "2-product/img product/Wall fans/num8-Air King 9166F 20 Whole House Window Fan.jpg",
+            "title": "Air King 9166F",
+            "category": "Wall fans",
+            "fanColor": "fanBlack",
+            "price": 240,
+            "description": ["Cool and Circulate Air in Any Room. The Air King 9166 is used to circulate air in any room whether in a residential or work setting. The fan fits window openings that are between 27-inches and 38-inches wide and are 26.25 tall. Traditional window fans are held in place by closing the window down onto the fan. While this is effective, if you ever need to close the window, you have to physically remove the fan from the window. Air King's Storm Guard feature enables the window to be closed behind the fan during inclement weather, or when securing the home. This Air King Window Fan is made of an impact resistant plastic housing, powder coated steel front grill and blade. With a powerful motor, this fan is the perfect cooling solution for instant air circulation and cooling. This fan is compliant with OSHA and ETL. It comes with a 1-year limited warranty to protect against defects in materials and workmanship. ",
+            "Adjustable Settings and Powerful Motor. Air King knows that the power house of any fan is a high-quality motor. With this in mind, Air King equipped this model with a 3-speed, 1-phase motor and sleeve bearing, permanent split capacitor. This powerful motor is rated at 120-volts, 1/6-horsepower and has 3-speed settings for cubic feet per minute of 3560, 3120 and 2510 on high, medium and low and rotations per minute of 1600, 1450 and 1100 on high, medium and low. The motor is rated at 1.4, 1.2 and 1.0 amps and170, 145 and 115 watts on highm medium and low. This fan is tested in accordance with AMCA standard 230-99. The industrial grade fan motor means high velocity air circulation with little to no maintenance."]
+        },
+        {
+            "id":25,
+            "brand": "Deton",
+            "picture": "2-product/img product/Exhaust fans/num1-HVD Series High Velocity.jpg",
+            "title": "HVD Series High Velocity",
+            "category": "Exhaust fans",
+            "fanColor": "fanWhite",
+            "price": 29,
+            "description":["High rotation speed, large air volume and fast air exhaust. ",
+            "Automatic opening and closing of shutters to prevent gas reflux. ",
+            "Round tubes can be connected for more convenience to use. ",
+            "Puure copper wire and silicon steel sheet motor is more durable. ",
+            "Air outlet with protective net is safer. ",
+            "Electrostatic spray metal body is rust-resistant. ",
+            "Built-in re-settable thermal protector is more reliable. ",
+            "Suitable for ventilation in factories, houses, offices, restaurants,entertainment places and more. "]
+        },
+        {
+            "id":26,
+            "brand": "Deton",
+            "picture": "2-product/img product/Exhaust fans/num2-LAD Series Square.jpg",
+            "title": "LAD Series Square",
+            "category": "Exhaust fans",
+            "fanColor": "fanWhite",
+            "price": 39,
+            "description": ["The motor adopts cold-rolled silicon steel sheet, copper enameled wire, less than 50K temperature rise design, with excellent overload capacity. ",
+            "The motor uses high quality low noise ball bearing and built-in re-settable thermal protector to ensure stable operation and long service life. ",
+            "Suitable for ventilation in factories,kitchens, offices, warehouses and more. ",
+            "All metal structure, made of punching high quality steel sheet, cast aluminum motor cover with good heat dissipation. ",
+            "Good rigidity, light weight, beautiful and easy to install. ",
+            "Large air volume, low noise, smooth running, safe and reliable."]
+        },
+        {
+            "id":27,
+            "brand": "Deton",
+            "picture": "2-product/img product/Exhaust fans/num3-FQ Series Heavy Duty.jpg",
+            "title": "FQ Series Heavy Duty",
+            "category": "Exhaust fans",
+            "fanColor": "fanSilver",
+            "price": 29,
+            "description": ["The motor adopts cold-rolled silicon steel sheet, copper enameled wire, less than 50K temperature rise design, with excellent overload capacity. ",
+            "The motor uses high quality low noise ball bearing and built-in re-settable thermal protector to ensure stable operation and long service life. ",
+            "Large air flow, low noise. ",
+            "Designed for ventilation in factories. ",
+            "The front grill, rear grill, or both grills is optional. "]
+        },
+        {
+            "id":28,
+            "brand": "Deton",
+            "picture": "2-product/img product/Exhaust fans/num4-VND Series Square.jpg",
+            "title": "VND Series Square",
+            "category": "Exhaust fans",
+            "fanColor": "fanBlack",
+            "price": 49,
+            "description": ["The motor adopts cold-rolled silicon steel sheet, copper enameled wire, less than 50K temperature rise design, with excellent overload capacity. ",
+            "The motor uses high quality low noise ball bearing and built-in re-settable thermal protector to ensure stable operation and long service life. ",
+            "The structural parts made of high quality steel sheet by punching. ",
+            "Good rigidity,light weight, beautiful and easy to install. ",
+            "Large air volume, low noise, smooth running, safe and reliable. ",
+            "Front or rear grill and shutter can be chosen to install as per requirement. "]
+        },
+        {
+            "id":29,
+            "brand": "iPower",
+            "picture": "2-product/img product/Exhaust fans/num5-iPower 12 Inch Exhaust Fan Aluminum.jpg",
+            "title": "iPower 12 Inch Aluminum",
+            "category": "Exhaust fans",
+            "fanColor": "fanSilver",
+            "price": 59,
+            "description": ["Applications: This 12 inch exhaust fan can help replace your ac unit by cooling your garage, attic, greenhouse shop or chicken coop. ",
+            "Installation: Can easily be added to a window opening or opening in the wall along with a thermostat to optimize cooling. ",
+            "Coolin and Gventilation: This industrial grade shutter fan can solve all of your cooling and ventilation needs. ",
+            "Rust proof aluminum material: This exhaust fan is made with corrosion resistant aluminum blades. This provides longevity to the fan and will prevent any rust from forming. ",
+            "120 Volts, 40W, 1300RPM, Wind Speed(M/S): 8.5. PoRible. "]
+        },
+        {
+            "id":30,
+            "brand": "iPower",
+            "picture": "2-product/img product/Exhaust fans/num6-iPower 12 Inch Shutter Exhaust Fan Aluminum.jpg",
+            "title": "iPower 12 Inch Shutter",
+            "category": "Exhaust fans",
+            "fanColor": "fanSilver",
+            "price": 69,
+            "description": ["Applications: This 12 inch shutter/exhaust fan with automatic Shutters can help replace your ac unit by cooling your garage, attic, greenhouse shop or chicken coop. ",
+            "Installation: Can easily be added to a window opening or opening in the wall along with a thermostat to optimize cooling. ",
+            "Coolin and Gventilation: This industrial grade shutter fan can solve all of your cooling and ventilation needs. Wattage (watts):65 ",
+            "Rust proof aluminum shutters: This shutter fan is made with corrosion resistant aluminium shutters and blades. This provides longevity to the fan and will prevent any rust from forming. ",
+            "120 Volts, 60W, 0. 52A, 1620RPM, 940CFM"]
+        },
+        {
+            "id":31,
+            "brand": "iPower",
+            "picture": "2-product/img product/Exhaust fans/num7-iPower 12 Inch Inline Duct HVAC Exhaust Blower Ventilation Fan.jpg",
+            "title": "iPower 12 Inch Inline Duct HVAC",
+            "category": "Exhaust fans",
+            "fanColor": "fanSilver",
+            "price": 139,
+            "description": ["Fan specifications: Diameter: 12 inch; air flow: 888 CFM; speed upgrade to 2550 RPM; wattage: 235W; voltage:110V; wind pressure upgrade to 950 Pa; standard household plug, pre-wired 5 feet power cord. ",
+            "Durability: Made of a high-quality, cold-rolled steel. The surface is treated with a plastic sealant to provide a strong resistance to corrosion. Composite fan blades and center hub which reduces noise and vibration. ",
+            "Speed controller: One control switch for 3 speed: high, med, low. Variable speed adjusted clockwise to increase and counterclockwise to reduce, adjust to the required speed. ",
+            "Temperature control: Rotate the temperature setting adjustment knob on speed controller, adjust it clockwise or anticlockwise. Example: the set temperature is 77°F, when the environment temperature is higher or equal to 77°F, then the fan begins to work. ",
+            "Advantages: Remove heat from the system to solves air delivery problems without major system rework or expense. Suitable for industrial, household and horticulture ventilation applications for air clean and temperature control. "]
+        },
+        {
+            "id":32,
+            "brand": "iPower",
+            "picture": "2-product/img product/Exhaust fans/num8-iPower 4 Inch 195 CFM Inline Ventilation Exhaust Fan.jpg",
+            "title": "iPower 4 Inch 195 CFM Ventilation",
+            "category": "Exhaust fans",
+            "fanColor": "fanBlack",
+            "price": 49,
+            "description": ["Mini construction fan: Size: 4 inches; Voltage: 120V; Current: 0.45A; Frequency: 60Hz; Power: 28W; Air Velocity: 195 CFM; Speed: 2500 RPM. Noise Level: 30db. ",
+            "High effective fan: Transfer air to your target location in a quick way. Fitted with a flow deflector that concentrates the fan stream and cuts turbulent kinetic energy to reduce sound output to just 30 dB. ",
+            "4 inch ducting: Temperature endurance range: 0 ~ 185°F (-18℃ ~ 85℃); length: 8 feet (when fully extended). A pair of 4 inch stainless steel metal clips makes the installation firmer. ",
+            "Backdraft Shutter Damper: Made of a Galvanized steel. Withstand temperatures from 14 to 140 °F. Back-flow valve with 2 spring-loaded wings prevents the reverse airflow movement through the ventilation duct when the ventilation system is turned off. ",
+            "Multi-Functional: This ventilation combo removes heat and eliminate the undesirable ill-smelling odors in the grow tent to solves air delivery problems without major system rework or expense. "]
+        }
+    ]
 }
-
-
-]
