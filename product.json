@@ -116,7 +116,7 @@
         {
             "id":9,
             "brand": "Deton",
-            "picture": "imgproduct/Pedestal fans/num1-DFK Seriespowerful Fan.jpg",
+            "picture": "imgproduct/Pedestal fans/num1-DFK Series Powerful Fan.jpg",
             "title": "DFK Series",
             "category": "Pedestal fans",
             "fanColor": "fanBlack",
@@ -145,7 +145,7 @@
         {
             "id":11,
             "brand": "Deton",
-            "picture": "imgproduct/Pedestal fans/num3-DFP Series Standpowerful Fan.jpg",
+            "picture": "imgproduct/Pedestal fans/num3-DFP Series Stand Powerful Fan.jpg",
             "title": "DFP Series",
             "category": "Pedestal fans",
             "fanColor": "fanBlack",
@@ -159,7 +159,7 @@
         {
             "id":12,
             "brand": "Air King",
-            "picture": "imgproduct/Pedestal fans/num4-Air King Oscillating Officepedestal Fan.jpg",
+            "picture": "imgproduct/Pedestal fans/num4-Air King Oscillating Office Pedestal Fan.jpg",
             "title": "Air King 9119",
             "category": "Pedestal fans",
             "fanColor": "fanWhite",
@@ -231,7 +231,7 @@
         {
             "id":17,
             "brand": "Deton",
-            "picture": "imgproduct/Wall fans/num1-DFP Series Wallpowerful Fan.jpg",
+            "picture": "imgproduct/Wall fans/num1-DFP Series Wall Powerful Fan.jpg",
             "title": "DFP Series",
             "category": "Wall fans",
             "fanColor": "fanBlack",
