@@ -19,7 +19,9 @@ header{
     background-color: #061121;
     max-height: 90px;
 }
-
+.navbar {
+    /* display: inline-block; */
+}
 .signin button {
     padding: 9px 25px;
     background-color: #27abcc;
