@@ -3,25 +3,25 @@
         {   "id":1,
             "name": "Phuoc Nguyen",
             "gmail": "phuocnguyen2537@gmail.com",
-            "image":"../img about/phuoc.jpg",
+            "image":"img about/phuoc.jpg",
             "telephone": "012385689"
         },
         {   "id":2,
             "name": "Phuoc Thinh",
             "gmail": "phuocnguyen2537@gmail.com",
-            "image":"../img about/Student1381854-Pham-Nguyen-Phuoc-Thinh.jpg",
+            "image":"img about/Student1381854-Pham-Nguyen-Phuoc-Thinh.jpg",
             "telephone": "012354375"
         },
         {   "id":3,
             "name": "Minh Tri",
             "gmail": "phuocnguyen2537@gmail.com",
-            "image":"../img about/tri.jpg",
+            "image":"img about/tri.jpg",
             "telephone": "012327679"
         },
         {   "id":4,
             "name": "Van Phu",
             "gmail": "phuocnguyen2537@gmail.com",
-            "image":"../img about/phu.jpg",
+            "image":"img about/phu.jpg",
             "telephone": "012356796"
         }
     ]
