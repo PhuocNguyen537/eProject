@@ -8,12 +8,13 @@ Project title: Hudson Furnishing
 ========> Group 3 <=========
 
 4 collaborators:
+
      Nguyen Huu Phuoc              Student1384666
 
      Pham Nguyen Phuoc Thinh       Student1235028
 
      Nguyen Minh Tri               Student1384664
-     
+
      Pham Van Phu                  Student1384680
 
 ============================
