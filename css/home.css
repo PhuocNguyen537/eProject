@@ -123,6 +123,8 @@ html{
 .rep img {
     flex-direction: column-reverse;
     align-items: center;
+    height: auto;
+    width: auto;
 }
 .p1{  
     margin-top: 4rem;
