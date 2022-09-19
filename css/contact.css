@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     background: rgb(132, 132, 241);
     background: linear-gradient(12deg, rgba(132, 132, 241, 1) 0%, rgba(120, 201, 221, 1) 100%);
