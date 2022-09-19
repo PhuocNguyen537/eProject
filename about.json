@@ -8,19 +8,19 @@
         },
         {   "id":2,
             "name": "Phuoc Thinh",
-            "gmail": "phuocnguyen2537@gmail.com",
+            "gmail": "thinhpnpts2205035@fpt.edu.vn",
             "image":"imgabout/Student1381854-Pham-Nguyen-Phuoc-Thinh.jpg",
             "telephone": "012354375"
         },
         {   "id":3,
             "name": "Minh Tri",
-            "gmail": "phuocnguyen2537@gmail.com",
+            "gmail": "trinmts2205014@fpt.edu.vn",
             "image":"imgabout/tri.jpg",
             "telephone": "012327679"
         },
         {   "id":4,
             "name": "Van Phu",
-            "gmail": "phuocnguyen2537@gmail.com",
+            "gmail": "phupvts2205015@fpt.edu.vn",
             "image":"imgabout/phu.jpg",
             "telephone": "012356796"
         }
