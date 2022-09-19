@@ -1,24 +1,26 @@
-# eProject
-.M1-eProject-Group_7 Batch no.: T1.1910.M1
+# eProject-2022
+eProject-Group_3-Hudson Furnishing 
 
-Project title: Madam's Boutique
+Batch no: T1.2205.M0
 
-========> Group 7 <=========
+Project title: Hudson Furnishing 
 
-3 collaborators:
+========> Group 3 <=========
 
-     Dao Nguyen Xuan Huy (huydrk@gmail.com) Student133877
-
-     Hoang Giang Chuan (hoanggiangchuan@gmail.com) Student1235028
-     
-     Vo Duc Chinh (vdchinh2310@gmail.com) Student1233862
-============================
-
-github report link: https://github.com/huydrk/eProject_Madam_boutique_group_7/tree/master/document
+4 collaborators:
+     Nguyen Huu Phuoc              Student1384666
+     Pham Nguyen Phuoc Thinh       Student1235028
+     Nguyen Minh Tri               Student1384664
+     Pham Van Phu                  Student1384680
 
 ============================
 
-eProject published at https://DXhuy26.github.io/eProject_Madam_boutique_group_7/Home.html
+github report link: 
 
 ============================
-Your site is live at https://phuocnguyen537.github.io/eProject/
+
+eProject published at https://phuocnguyen537.github.io/eProject/
+
+
+Thanks you for spending your time to look at our work.
+
