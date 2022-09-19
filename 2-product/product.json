@@ -2,7 +2,7 @@
     "products": [
         {   "id":1,
             "brand": "Deton",
-            "picture": "2-product/img product/Ceiling fans/num1-ICF Series lndustrial.jpg",
+            "picture": "../img product/Ceiling fans/num1-ICF Series lndustrial.jpg",
             "title": "ICF",
             "category": "Ceiling fans",
             "fanColor": "fanSilver",
@@ -15,7 +15,7 @@
         {
             "id":2,
             "brand":"Fanimation",
-            "picture": "2-product/img product/Ceiling fans/num2-Amped.jpg",
+            "picture": "../img product/Ceiling fans/num2-Amped.jpg",
             "title": "Amped",
             "category": "Ceiling fans",
             "fanColor": "fanGold",
@@ -29,7 +29,7 @@
         {
             "id":3,
             "brand":"Fanimation",
-            "picture": "2-product/img product/Ceiling fans/num3-Kwartet.jpg",
+            "picture": "../img product/Ceiling fans/num3-Kwartet.jpg",
             "title": "Kwartet",
             "category": "Ceiling fans",
             "fanColor": "fanGold",
@@ -43,7 +43,7 @@
         {
             "id":4,
             "brand":"Fanimation",
-            "picture": "2-product/img product/Ceiling fans/num4-Kerring.jpg",
+            "picture": "../img product/Ceiling fans/num4-Kerring.jpg",
             "title": "Kerring",
             "category": "Ceiling fans",
             "fanColor": "fanGold",
@@ -57,7 +57,7 @@
         {
             "id":5,
             "brand":"Fanimation",
-            "picture": "2-product/img product/Ceiling fans/num5-Klout.jpg",
+            "picture": "../img product/Ceiling fans/num5-Klout.jpg",
             "title": "Klout",
             "category": "Ceiling fans",
             "fanColor": "fanGold",
@@ -71,7 +71,7 @@
         {
             "id":6,
             "brand":"Fanimation",
-            "picture": "2-product/img product/Ceiling fans/num6-Spitfire 60.jpg",
+            "picture": "../img product/Ceiling fans/num6-Spitfire 60.jpg",
             "title": "Spitfire 60",
             "category": "Ceiling fans",
             "fanColor": "fanGold",
@@ -86,7 +86,7 @@
         {
             "id":7,
             "brand":"Fanimation",
-            "picture": "2-product/img product/Ceiling fans/num7-Edgewood 52.jpg",
+            "picture": "../img product/Ceiling fans/num7-Edgewood 52.jpg",
             "title": "Edgewood 52",
             "category": "Ceiling fans",
             "fanColor": "fanWhite",
@@ -101,7 +101,7 @@
         {
             "id":8,
             "brand":"Fanimation",
-            "picture": "2-product/img product/Ceiling fans/num8-TriAir 60.jpg",
+            "picture": "../img product/Ceiling fans/num8-TriAir 60.jpg",
             "title": "TriAir 60",
             "category": "Ceiling fans",
             "fanColor": "fanWhite",
@@ -116,7 +116,7 @@
         {
             "id":9,
             "brand": "Deton",
-            "picture": "2-product/img product/Pedestal fans/num1-DFK Series Powerful Fan.jpg",
+            "picture": "../img product/Pedestal fans/num1-DFK Series Powerful Fan.jpg",
             "title": "DFK Series",
             "category": "Pedestal fans",
             "fanColor": "fanBlack",
@@ -130,7 +130,7 @@
         {
             "id":10,
             "brand": "Deton",
-            "picture": "2-product/img product/Pedestal fans/num2-Misting Fan.jpg",
+            "picture": "../img product/Pedestal fans/num2-Misting Fan.jpg",
             "title": "Misting Fan",
             "category": "Pedestal fans",
             "fanColor": "fanBlack",
@@ -145,7 +145,7 @@
         {
             "id":11,
             "brand": "Deton",
-            "picture": "2-product/img product/Pedestal fans/num3-DFP Series Stand Powerful Fan.jpg",
+            "picture": "../img product/Pedestal fans/num3-DFP Series Stand Powerful Fan.jpg",
             "title": "DFP Series",
             "category": "Pedestal fans",
             "fanColor": "fanBlack",
@@ -159,7 +159,7 @@
         {
             "id":12,
             "brand": "Air King",
-            "picture": "2-product/img product/Pedestal fans/num4-Air King Oscillating Office Pedestal Fan.jpg",
+            "picture": "../img product/Pedestal fans/num4-Air King Oscillating Office Pedestal Fan.jpg",
             "title": "Air King 9119",
             "category": "Pedestal fans",
             "fanColor": "fanWhite",
@@ -173,7 +173,7 @@
         {
             "id":13,
             "brand": "Deton",
-            "picture": "2-product/img product/Pedestal fans/num5-Axial Misting Fan.jpg",
+            "picture": "../img product/Pedestal fans/num5-Axial Misting Fan.jpg",
             "title": "Axial",
             "category": "Pedestal fans",
             "fanColor": "fanWhite",
@@ -190,7 +190,7 @@
         {
             "id":14,
             "brand": "Deton",
-            "picture": "2-product/img product/Pedestal fans/num6-CF Series Commercial Fan.jpg",
+            "picture": "../img product/Pedestal fans/num6-CF Series Commercial Fan.jpg",
             "title": "CF Series",
             "category": "Pedestal fans",
             "fanColor": "fanBlack",
@@ -204,7 +204,7 @@
         {
             "id":15,
             "brand": "Fanimation",
-            "picture": "2-product/img product/Pedestal fans/num7-Arden.jpg",
+            "picture": "../img product/Pedestal fans/num7-Arden.jpg",
             "title": "Arden",
             "category": "Pedestal fans",
             "fanColor": "fanSilver",
@@ -218,7 +218,7 @@
         {
             "id":16,
             "brand": "Fanimation",
-            "picture": "2-product/img product/Pedestal fans/num8-Old Havana.jpg",
+            "picture": "../img product/Pedestal fans/num8-Old Havana.jpg",
             "title": "Old Havana",
             "category": "Pedestal fans",
             "fanColor": "fanBlack",
@@ -231,7 +231,7 @@
         {
             "id":17,
             "brand": "Deton",
-            "picture": "2-product/img product/Wall fans/num1-DFP Series Wall Powerful Fan.jpg",
+            "picture": "../img product/Wall fans/num1-DFP Series Wall Powerful Fan.jpg",
             "title": "DFP Series",
             "category": "Wall fans",
             "fanColor": "fanBlack",
@@ -244,7 +244,7 @@
         {
             "id":18,
             "brand": "Air King",
-            "picture": "2-product/img product/Wall fans/num2-Air King 9070 30-Inch Industrial Grade Wall Mount Fan.jpg",
+            "picture": "../img product/Wall fans/num2-Air King 9070 30-Inch Industrial Grade Wall Mount Fan.jpg",
             "title": "Air King 9070",
             "category": "Wall fans",
             "fanColor": "fanBlack",
@@ -258,7 +258,7 @@
         {
             "id":19,
             "brand": "Deton",
-            "picture": "2-product/img product/Wall fans/num3-XDF-45 Orbit Fan.jpg",
+            "picture": "../img product/Wall fans/num3-XDF-45 Orbit Fan.jpg",
             "title": "XDF-45",
             "category": "Wall fans",
             "fanColor": "fanWhite",
@@ -273,7 +273,7 @@
         {
             "id":20,
             "brand": "Air King",
-            "picture": "2-product/img product/Wall fans/num4-Air King 9318 Industrial Grade High Velocity Muti Mount Fan.jpg",
+            "picture": "../img product/Wall fans/num4-Air King 9318 Industrial Grade High Velocity Muti Mount Fan.jpg",
             "title": "Air King 9318",
             "category": "Wall fans",
             "fanColor": "fanBlack",
@@ -286,7 +286,7 @@
         {
             "id":21,
             "brand": "Air King",
-            "picture": "2-product/img product/Wall fans/num5-Air King 9018 Commercial Grade Oscillating Wall Mount Fan.jpg",
+            "picture": "../img product/Wall fans/num5-Air King 9018 Commercial Grade Oscillating Wall Mount Fan.jpg",
             "title": "Air King 9018",
             "category": "Wall fans",
             "fanColor": "fanSilver",
@@ -299,7 +299,7 @@
         {
             "id":22,
             "brand": "Air King",
-            "picture": "2-product/img product/Wall fans/num6-Air King Home Garage Steel Wall Mounted Fan.jpg",
+            "picture": "../img product/Wall fans/num6-Air King Home Garage Steel Wall Mounted Fan.jpg",
             "title": "Air King 9218",
             "category": "Wall fans",
             "fanColor": "fanBlack",
@@ -312,7 +312,7 @@
         {
             "id":23,
             "brand": "Air King",
-            "picture": "2-product/img product/Wall fans/num7-Air King 16 Wall Mount Fan.jpg",
+            "picture": "../img product/Wall fans/num7-Air King 16 Wall Mount Fan.jpg",
             "title": "Air King 9020",
             "category": "Wall fans",
             "fanColor": "fanWhite",
@@ -324,7 +324,7 @@
         {
             "id":24,
 
-            "picture": "2-product/img product/Wall fans/num8-Air King 9166F 20 Whole House Window Fan.jpg",
+            "picture": "../img product/Wall fans/num8-Air King 9166F 20 Whole House Window Fan.jpg",
             "title": "Air King 9166F",
             "category": "Wall fans",
             "fanColor": "fanBlack",
@@ -335,7 +335,7 @@
         {
             "id":25,
             "brand": "Deton",
-            "picture": "2-product/img product/Exhaust fans/num1-HVD Series High Velocity.jpg",
+            "picture": "../img product/Exhaust fans/num1-HVD Series High Velocity.jpg",
             "title": "HVD Series High Velocity",
             "category": "Exhaust fans",
             "fanColor": "fanWhite",
@@ -352,7 +352,7 @@
         {
             "id":26,
             "brand": "Deton",
-            "picture": "2-product/img product/Exhaust fans/num2-LAD Series Square.jpg",
+            "picture": "../img product/Exhaust fans/num2-LAD Series Square.jpg",
             "title": "LAD Series Square",
             "category": "Exhaust fans",
             "fanColor": "fanWhite",
@@ -367,7 +367,7 @@
         {
             "id":27,
             "brand": "Deton",
-            "picture": "2-product/img product/Exhaust fans/num3-FQ Series Heavy Duty.jpg",
+            "picture": "../img product/Exhaust fans/num3-FQ Series Heavy Duty.jpg",
             "title": "FQ Series Heavy Duty",
             "category": "Exhaust fans",
             "fanColor": "fanSilver",
@@ -381,7 +381,7 @@
         {
             "id":28,
             "brand": "Deton",
-            "picture": "2-product/img product/Exhaust fans/num4-VND Series Square.jpg",
+            "picture": "../img product/Exhaust fans/num4-VND Series Square.jpg",
             "title": "VND Series Square",
             "category": "Exhaust fans",
             "fanColor": "fanBlack",
@@ -396,7 +396,7 @@
         {
             "id":29,
             "brand": "iPower",
-            "picture": "2-product/img product/Exhaust fans/num5-iPower 12 Inch Exhaust Fan Aluminum.jpg",
+            "picture": "../img product/Exhaust fans/num5-iPower 12 Inch Exhaust Fan Aluminum.jpg",
             "title": "iPower 12 Inch Aluminum",
             "category": "Exhaust fans",
             "fanColor": "fanSilver",
@@ -410,7 +410,7 @@
         {
             "id":30,
             "brand": "iPower",
-            "picture": "2-product/img product/Exhaust fans/num6-iPower 12 Inch Shutter Exhaust Fan Aluminum.jpg",
+            "picture": "../img product/Exhaust fans/num6-iPower 12 Inch Shutter Exhaust Fan Aluminum.jpg",
             "title": "iPower 12 Inch Shutter",
             "category": "Exhaust fans",
             "fanColor": "fanSilver",
@@ -424,7 +424,7 @@
         {
             "id":31,
             "brand": "iPower",
-            "picture": "2-product/img product/Exhaust fans/num7-iPower 12 Inch Inline Duct HVAC Exhaust Blower Ventilation Fan.jpg",
+            "picture": "../img product/Exhaust fans/num7-iPower 12 Inch Inline Duct HVAC Exhaust Blower Ventilation Fan.jpg",
             "title": "iPower 12 Inch Inline Duct HVAC",
             "category": "Exhaust fans",
             "fanColor": "fanSilver",
@@ -438,7 +438,7 @@
         {
             "id":32,
             "brand": "iPower",
-            "picture": "2-product/img product/Exhaust fans/num8-iPower 4 Inch 195 CFM Inline Ventilation Exhaust Fan.jpg",
+            "picture": "../img product/Exhaust fans/num8-iPower 4 Inch 195 CFM Inline Ventilation Exhaust Fan.jpg",
             "title": "iPower 4 Inch 195 CFM Ventilation",
             "category": "Exhaust fans",
             "fanColor": "fanBlack",
