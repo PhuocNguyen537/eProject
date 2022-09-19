@@ -236,7 +236,7 @@
         //product
         app.run(function ($rootScope, $http) {
             //load du lieu tu file json (product.json) -> model [listProduct]
-            $http.get("/2-product/product.json").then(function (response) {
+            $http.get("2-product/product.json").then(function (response) {
                 $rootScope.listProduct = response.data.products;
             });
         });
