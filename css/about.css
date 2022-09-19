@@ -2,10 +2,13 @@ body {
     background: rgb(132,132,241);
     background: linear-gradient(12deg, rgba(132,132,241,1) 0%, rgba(120,201,221,1) 100%);
 }
+.leftabout {
+    margin-left: 10%;
+}
 .about {
     display: inline-block;
-    padding: 20px 50px;
-    margin: 100px 30px;
+    padding: 20px 0px;
+    margin: 100px 0px;
 }
 .aboutcard {
     background-color: #0b1b33;

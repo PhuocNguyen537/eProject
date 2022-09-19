@@ -14,13 +14,12 @@ header   a, button{
     padding: 0px 5px; 
 }
 header{
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 10px 10%;
+    padding: 5px 10%;
     background-color: #061121;
     max-height: 90px;
 }
+
 .signin button {
     padding: 9px 25px;
     background-color: #27abcc;
